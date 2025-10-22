@@ -367,17 +367,20 @@
             margin-bottom: 20px;
             padding-bottom: 15px;
             border-bottom: 2px solid var(--notepad-border);
+            min-height: 40px;
         }
 
         .notepad-title {
             font-family: 'Press Start 2P', cursive;
             font-size: 0.8rem;
             color: var(--notepad-header);
+            flex: 0.5;
         }
 
         .notepad-controls {
             display: flex;
             gap: 10px;
+            flex-shirk: 0;
         }
 
         .notepad-controls button {
@@ -386,6 +389,7 @@
             font-size: 0.5rem;
             padding: 8px 12px;
             border-color: #3a3a3a;
+            white-space: nowrap;
         }
 
         .notepad-controls button:hover {
@@ -1357,3 +1361,4 @@
 </body>
 
 </html>
+
